@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.xthem{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+nav.navbar.navbar-expand-sm.navbar-dark {
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+img.img-logo {
+    width: 86px;
+    height: 78px;
+    border-radius: 50%;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #1F334E !important;
+  }
+  li.nav-item {
+    margin: 0px 40px;
+}  
+form.form-inline {
+    margin-left: 106px;
+}
+img.img-nen {
+    width: 100%;
+    height: 400px;
+}
+
+.col-12 {
+    padding: 0 !important;
+}
+.datban{
+    position: relative;
+}
+.btn-datban{
+    position: absolute;
+    bottom: 75px;
+    right: 300px;
+}
+i.fas.fa-concierge-bell {
+    font-size: 26px;
+}
+.btn-datban p{
+    display: inline-block;
+}
+.hethong{
+    background: #1F334E;
+}
+
+.hethong h1{
+    color: #c09440;
+}
+.hethong p{
+    color: white;
+}
+.hethong {
+    padding: 50px 30px !important;
+}
+.khonggian .col-4 img{
+    height: 350px;
+    width: 100%;
+    transition: transform .2s;
+}
+
+.khonggian .col-4{
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.khonggian .col-4 img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .khonggian .col-4{
+      position: relative;
+  }
+  .khonggian .col-4 h3{
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+      font-size: 20px;
+      color: white;
+      font-weight: 700;
+  }
+  .monan .col-3{
+      padding: 0;
+  }
